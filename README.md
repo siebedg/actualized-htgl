@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Field Kit
 
-## Getting Started
+**Stop learning. Start doing.**
 
-First, run the development server:
+A personal field companion built for Siebe — action-first, not another course. Based on the Actualized.org "How To Get Laid" framework (Parts 1–3) and your own notes, distilled into tools that get you out of the house.
+
+## What this is (and isn't)
+
+| You need | This app |
+|----------|----------|
+| Practice, not theory | Mission screen pushes you out the door |
+| Places to go | Venue list with visit tracking |
+| Approach logging | Quick log in Field mode |
+| Accountability | Coach page with weekly summary export |
+| Overcoming anxiety | Exposure ladder + warm-up tracking |
+| Lines when stuck | Arsenal shuffle (not memorization) |
+
+| You don't need | Deliberately excluded |
+|----------------|----------------------|
+| More podcasts | No long-form content walls |
+| Analysis paralysis | Home screen = today's action only |
+| Perfect openers | Shuffle one line, deliver it |
+
+## Run locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000). Add to home screen on your phone for field use (PWA manifest included).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Screens
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Mission** — Weekly goal, today's checklist, where to go, pre-field prep
+- **Field** — 3-second timer, opener shuffle, approach flow, quick log
+- **Log** — All approaches with outcomes and anxiety tracking
+- **Venues** — Your coast spots (edit the defaults for your town)
+- **Arsenal** — Openers, teases, logistics lines (EN + NL)
+- **Stats** — Volume over vanity metrics
+- **Coach** — Call logging + copy-paste weekly summary for your friend
+- **Ladder** (`/ladder`) — Graduated exposure from eye contact → instant date
 
-## Learn More
+## Your first week
 
-To learn more about Next.js, take a look at the following resources:
+1. Edit venues with your actual beach bars, streets, and summer spots
+2. Set weekly goal to **5–7 approaches** (not 20 — consistency beats heroics)
+3. Complete ladder levels 1–4 before full direct approaches
+4. Log every set, including chicken-outs (`walked away`)
+5. Copy coach summary before each call with your friend
+6. Schedule 2 day games with your coach this month
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Data
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Everything stores in your browser (localStorage via Zustand). No account, no server, no one sees your logs.
 
-## Deploy on Vercel
+## Core principles (baked in)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 3-second rule — shut off your mind, walk
+- Doing it afraid is brave
+- Reject yourself before she can
+- Statements > questions
+- What you feel, she feels
+- Not enough results = not enough action
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Built for practice. Go out.

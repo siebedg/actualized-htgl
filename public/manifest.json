@@ -1,0 +1,10 @@
+{
+  "name": "Field Kit",
+  "short_name": "Field Kit",
+  "description": "Stop learning. Start doing. Approach practice companion.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "orientation": "portrait"
+}
